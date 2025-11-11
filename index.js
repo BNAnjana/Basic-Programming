@@ -7,4 +7,9 @@ function isPrime(num){
     }
     return true;
 }
+
+function evenOdd(num){
+    return num % 2 ===0;
+}
 console.log(isPrime(5));
+console.log(evenOdd(4));
